@@ -6,7 +6,7 @@ namespace LunchBuddies
 {
     class Restaurant
     {
-        public List<string> Restaurants = new List<string> { "Taco Bell", "Panera", "Olive Garden" };
+        public List<string> Restaurants = new List<string> { "Taco Bell", "Panera", "Olive Garden", "Buffalo Wild Wings" };
         public string Name { get; set; }
 
         public Restaurant()
