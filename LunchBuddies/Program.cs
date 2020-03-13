@@ -6,7 +6,10 @@ namespace LunchBuddies
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var restaurant = new Restaurant();
+
+            Console.WriteLine(restaurant.Name);
+            Console.ReadLine();
         }
     }
 }
